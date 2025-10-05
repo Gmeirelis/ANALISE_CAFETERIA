@@ -46,7 +46,7 @@ Importação do dataset em formato .csv
 ````
  df = pd.read_csv('Coffe_sales 1.csv')
   ````
-Padronização dos nomes das colunas
+renomeando  nomes das colunas
 ````
 df_limpo = df_limpo.rename(columns={
     'hour_of_day': 'Hora do Dia',
@@ -80,9 +80,9 @@ df_limpo['turno'] = df_limpo['turno'].replace({
     'Afternoon': 'Tarde',
     'Night': 'Noite'
 })
-```
+
        nome do dia
-```
+
       df_limpo['nome do dia'] = df_limpo['nome do dia'].replace({
     'Mon': 'seg',
     'Tue': 'ter',
@@ -92,7 +92,23 @@ df_limpo['turno'] = df_limpo['turno'].replace({
     'Sat': 'sab',
     'Sun': 'dom'
 })
-````
+        nome do mes
+df_limpo['nome do mes'] = df_limpo['nome do mes'].replace({
+    'Jan': 'jan',
+    'Feb': 'fev',
+    'Mar': 'mar',
+    'Apr': 'abr',
+    'May': 'mai',
+    'Jun': 'jun',
+    'Jul': 'jul',
+    'Aug': 'ago',
+    'Sep': 'set',
+    'Oct': 'out',
+    'Nov': 'nov',
+    'Dec': 'dez'
+})
+
+
 
 # traduzindo linhas para pt br
 df_limpo['nome do mes'] = df_limpo['nome do mes'].replace({
@@ -109,6 +125,7 @@ df_limpo['nome do mes'] = df_limpo['nome do mes'].replace({
     'Nov': 'nov',
     'Dec': 'dez'
 })
+````
 
 ---
 
