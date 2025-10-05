@@ -96,4 +96,8 @@ R$ 19,80 por cliente, subindo para R$ 22,00 nos finais de semana.
 
 |#| tema | recomendação |
 |:-:|-----------|-----------|
-|   |
+| 1 | Atendimento |Reforçar equipe nos horários de pico (8h–10h / 16h–18h)|
+| 2 | Marketing | Criar promoções noturnas e combos para aumentar fluxo |
+| 3 |Estoque | Ajustar pedidos conforme os dias e horários de maior movimento |
+| 4 | Gestão Financeira |Monitorar mensalmente o ticket médio e volume de vendas |
+
