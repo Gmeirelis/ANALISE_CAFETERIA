@@ -202,11 +202,11 @@ O ticket médio de R$ 2.920,00 indica clientes com maior poder de compra. Recome
 
 | # | Indicador|	Valor | 	Insight
 |:-:|-----------|-----------|------------|
-| 1 | Receita Total |R$ 48.500| Volume total do período analisado|
-| 2 | Ticket Médio |R$ 19,80|Gasto médio por cliente|
-| 3 | Produto Mais Vendido | Cappuccino |Alta margem e popularidade|
-| 4 | Horário de Pico |8h–10h / 16h–18h|Alta demanda matinal e vespertina|
-| 5 |Dia Mais Lucrativo |Sábado|Maior movimento e faturamento|
+| 1 | faturamento |R$ 10,35 mi | faturamento 2024 e 2025 |
+| 2 | Ticket Médio |R$ 2.920,00|Gasto médio por cliente|
+| 3 | Produto Mais Vendido | latte |Alta margem e popularidade|
+| 4 | Horário de Pico |9h–10h / 18h–20h|Alta demanda matinal e vespertina|
+| 5 |Dia Mais Lucrativo |Segunda|Maior movimento e faturamento|
 
 ##🧰 Ferramentas Utilizadas
 --
@@ -216,4 +216,13 @@ O ticket médio de R$ 2.920,00 indica clientes com maior poder de compra. Recome
 |1|Coleta de Dados	Kaggle| (Coffee Shop Sales Dataset)|	Fonte do dataset|
 |2|Limpeza e Manipulação|	Python (Pandas)|	Tratamento e enriquecimento dos dados|
 |3|Visualização|	Power BI|	Criação de dashboards e KPIs|
+
+## 👨‍💻 Autor
+---
+
+**Guilherme Meireles**  
+
+📧 [gmeirelis8@gmail.com]  
+🔗 [www.linkedin.com/in/guimeireleslima]  
+
 
