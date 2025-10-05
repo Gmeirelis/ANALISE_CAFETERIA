@@ -37,3 +37,27 @@ graph LR
 A[📥 Coleta de Dados - Dataset Coffee Sales] --> B[🐍 Limpeza e Manipulação (Python)]
 B --> C[📊 Visualização e KPIs (Power BI)]
 C --> D[📈 Geração de Insights e Recomendações]
+````
+
+## 🧹 Etapa 1 — Limpeza e Manipulação de Dados (Python)
+
+
+Importação do dataset em formato .csv
+
+Padronização dos nomes das colunas
+
+Tratamento de valores nulos e duplicados
+
+Conversão de datas e horários
+
+Criação de colunas derivadas:
+
+month → Mês da venda
+
+weekday → Dia da semana
+
+hour → Hora da venda
+
+period → Período do dia (manhã, tarde, noite)
+
+Cálculo do ticket médio
