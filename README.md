@@ -155,6 +155,9 @@ Cappuccino e Latte lideram as vendas, representando 38% do faturamento total.
 Os horários de maior movimento são 8h–10h (café da manhã) e 16h–18h (fim da tarde).
 ➡️ Reforçar a equipe e preparar o estoque nesses períodos.
 
+
+![graficos](graficos/vendas_por_dia.png)
+
 ---
 
 ##🌅 Vendas por Período do Dia
