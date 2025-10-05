@@ -43,7 +43,9 @@ C --> D[📈 Geração de Insights e Recomendações]
 
 
 Importação do dataset em formato .csv
-
+````
+ df = pd.read_csv('Coffe_sales 1.csv')
+  ````
 Padronização dos nomes das colunas
 
 Tratamento de valores nulos e duplicados
