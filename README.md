@@ -130,7 +130,7 @@ df_limpo['nome do mes'] = df_limpo['nome do mes'].replace({
 ---
 
 ##📊 Etapa 2 — Visualização e Análise (Power BI)
-
+---
 A etapa de visualização foi realizada no Power BI, conectando diretamente o dataset limpo do Python.
 Os gráficos e KPIs foram organizados em um dashboard interativo com filtros por ano ,mes e produto
 
@@ -138,7 +138,7 @@ Os gráficos e KPIs foram organizados em um dashboard interativo com filtros por
 
 ##🥇 Vendas por Tipo de Café
 
-Cappuccino e Latte lideram as vendas, representando 38% do faturamento total.
+  americano e Latte lideram as vendas
 ➡️ Reforçar o estoque desses produtos e oferecer combos promocionais.
 
 
@@ -152,7 +152,7 @@ Cappuccino e Latte lideram as vendas, representando 38% do faturamento total.
 
 ##⏰ Vendas por Hora do Dia
 
-Os horários de maior movimento são 8h–10h (café da manhã) e 16h–18h (fim da tarde).
+Os horários de maior movimento são 9h–10h (café da manhã) e 18h-20h (noite).
 ➡️ Reforçar a equipe e preparar o estoque nesses períodos.
 
 
@@ -162,6 +162,7 @@ Os horários de maior movimento são 8h–10h (café da manhã) e 16h–18h (fim
 
 ##🌅 Vendas por Período do Dia
 
+As vendas estão equilibradas entre os turnos da manhã, tarde e noite, permitindo uma operação uniforme e planejamento de estoque eficiente. Recomenda-se manter a estratégia atual de atendimento e promoções distribuídas ao longo do dia.
 
 ![graficos](graficos/vendas_por_turno.png)
 
@@ -169,12 +170,17 @@ Os horários de maior movimento são 8h–10h (café da manhã) e 16h–18h (fim
 
 ##📆 Vendas por Dia da Semana
 
+dias movimentados são seg,sex e ter 
+➡️ Reforçar equipe e operação nesses dias,aumentar a escala de funcionários ou reforçar o atendimento nesses dias ajuda a evitar gargalos.
+
+
 ![graficos](graficos/vendas_por_dia.png)
 
 ---
 
 ##💰 Ticket Médio
 
+O ticket médio de R$ 2.920,00 indica clientes com maior poder de compra. Recomenda-se estratégias de upsell, combos premium e campanhas de fidelização para maximizar a margem e manter o faturamento estável
 
 ![graficos](graficos/tickt_medio.png)
 
