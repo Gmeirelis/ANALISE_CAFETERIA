@@ -141,7 +141,12 @@ Os gráficos e KPIs foram organizados em um dashboard interativo com filtros por
 Cappuccino e Latte lideram as vendas, representando 38% do faturamento total.
 ➡️ Reforçar o estoque desses produtos e oferecer combos promocionais.
 
+
+
  ![graficos](graficos/bebidas_mais_vendidas.png)
+
+
+
 
 ---
 
