@@ -2,7 +2,7 @@
 
 # ☕ Análise de Vendas - Cafeteria CoffeeTime
 
-![Capa do Projeto](images/dashboard_cafeteria.png)
+![Capa do Projeto](graficos/dashboard.png)
 
 > 🔍 *Análise completa das vendas de uma cafeteria — da limpeza em Python à visualização em Power BI.*
 
