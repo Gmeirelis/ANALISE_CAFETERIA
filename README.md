@@ -61,3 +61,10 @@ hour → Hora da venda
 period → Período do dia (manhã, tarde, noite)
 
 Cálculo do ticket médio
+
+---
+
+📊 Etapa 2 — Visualização e Análise (Power BI)
+
+A etapa de visualização foi realizada no Power BI, conectando diretamente o dataset limpo do Python.
+Os gráficos e KPIs foram organizados em um dashboard interativo com filtros por ano ,mes e produto
