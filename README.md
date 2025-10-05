@@ -32,7 +32,7 @@ Essas análises ajudarão na **tomada de decisões estratégicas**, como ajustar
 
 ## ⚙️ Pipeline do Projeto
 
-```mermaid
+```
 graph LR
 A[📥 Coleta de Dados - Dataset Coffee Sales] --> B[🐍 Limpeza e Manipulação (Python)]
 B --> C[📊 Visualização e KPIs (Power BI)]
