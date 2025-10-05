@@ -121,6 +121,13 @@ R$ 19,80 por cliente, subindo para R$ 22,00 nos finais de semana.
 | 3 | Produto Mais Vendido | Cappuccino |Alta margem e popularidade|
 | 4 | Horário de Pico |8h–10h / 16h–18h|Alta demanda matinal e vespertina|
 | 5 |Dia Mais Lucrativo |Sábado|Maior movimento e faturamento|
-| 6 | Qual é o ticket médio por cliente? | Avaliar a rentabilidade das vendas |
 
+##🧰 Ferramentas Utilizadas
+--
+
+|#|Etapa|	Ferramenta|	Finalidade|
+|:-:|-----------|-----------|------------|
+|1|Coleta de Dados	Kaggle| (Coffee Shop Sales Dataset)|	Fonte do dataset|
+|2|Limpeza e Manipulação|	Python (Pandas)|	Tratamento e enriquecimento dos dados|
+|3|Visualização|	Power BI|	Criação de dashboards e KPIs|
 
