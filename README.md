@@ -47,22 +47,68 @@ Importação do dataset em formato .csv
  df = pd.read_csv('Coffe_sales 1.csv')
   ````
 Padronização dos nomes das colunas
+````
+df_limpo = df_limpo.rename(columns={
+    'hour_of_day': 'Hora do Dia',
+    'cash_type': 'Tipo de Pagamento',
+    'money':'valor',
+    'coffee_name':'nome do produto',
+    'Time_of_Day':'turno',
+    'Weekday':'nome do dia',
+    'Month_name':'nome do mes',
+    'Weekdaysort':'numero do dia',
+    'Monthsort':'numero do mes',
+    'Date':'data',
+    'Time':'horas',
+    'id':'id'
+})
+
+df_limpo.head()
+````
 
 Tratamento de valores nulos e duplicados
+````
+df_limpo = df.dropna()
+df_limpo = df.drop_duplicates()
+````
+renomeando linhas  da coluna 
+         
+````         
+         turno    
+df_limpo['turno'] = df_limpo['turno'].replace({
+    'Morning': 'Manhã',
+    'Afternoon': 'Tarde',
+    'Night': 'Noite'
+})
+```
+       nome do dia
+```
+      df_limpo['nome do dia'] = df_limpo['nome do dia'].replace({
+    'Mon': 'seg',
+    'Tue': 'ter',
+    'Wed': 'qua',
+    'Thu': 'qui',
+    'Fri': 'sex',
+    'Sat': 'sab',
+    'Sun': 'dom'
+})
+````
 
-Conversão de datas e horários
-
-Criação de colunas derivadas:
-
-month → Mês da venda
-
-weekday → Dia da semana
-
-hour → Hora da venda
-
-period → Período do dia (manhã, tarde, noite)
-
-Cálculo do ticket médio
+# traduzindo linhas para pt br
+df_limpo['nome do mes'] = df_limpo['nome do mes'].replace({
+    'Jan': 'jan',
+    'Feb': 'fev',
+    'Mar': 'mar',
+    'Apr': 'abr',
+    'May': 'mai',
+    'Jun': 'jun',
+    'Jul': 'jul',
+    'Aug': 'ago',
+    'Sep': 'set',
+    'Oct': 'out',
+    'Nov': 'nov',
+    'Dec': 'dez'
+})
 
 ---
 
