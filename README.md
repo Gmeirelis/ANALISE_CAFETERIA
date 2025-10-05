@@ -68,29 +68,31 @@ Cálculo do ticket médio
 
 A etapa de visualização foi realizada no Power BI, conectando diretamente o dataset limpo do Python.
 Os gráficos e KPIs foram organizados em um dashboard interativo com filtros por ano ,mes e produto
-
+---
 
 ##🥇 Vendas por Tipo de Café
 
 Cappuccino e Latte lideram as vendas, representando 38% do faturamento total.
 ➡️ Reforçar o estoque desses produtos e oferecer combos promocionais.
-
+---
 
 ##⏰ Vendas por Hora do Dia
 
 Os horários de maior movimento são 8h–10h (café da manhã) e 16h–18h (fim da tarde).
 ➡️ Reforçar a equipe e preparar o estoque nesses períodos.
+---
 
 ##🌅 Vendas por Período do Dia
-
+---
 
 ##📆 Vendas por Dia da Semana
-
+---
 
 ##💰 Ticket Médio
 
 R$ 19,80 por cliente, subindo para R$ 22,00 nos finais de semana.
 ➡️ Clientes gastam mais em momentos de lazer, reforçando o potencial de vendas sazonais.
+---
 
 ##🧠 Conclusões e Recomendações
 
@@ -100,4 +102,15 @@ R$ 19,80 por cliente, subindo para R$ 22,00 nos finais de semana.
 | 2 | Marketing | Criar promoções noturnas e combos para aumentar fluxo |
 | 3 |Estoque | Ajustar pedidos conforme os dias e horários de maior movimento |
 | 4 | Gestão Financeira |Monitorar mensalmente o ticket médio e volume de vendas |
+---
+
+| # | Indicador|	Valor | 	Insight
+|:-:|-----------|-----------|
+| 1 | Receita Total |R$ 48.500| Volume total do período analisado|
+| 2 | Ticket Médio |R$ 19,80|Gasto médio por cliente|
+| 3 | Produto Mais Vendido | Cappuccino |Alta margem e popularidade|
+| 4 | Horário de Pico |8h–10h / 16h–18h|Alta demanda matinal e vespertina|
+| 5 |Dia Mais Lucrativo |Sábado|Maior movimento e faturamento|
+| 6 | Qual é o ticket médio por cliente? | Avaliar a rentabilidade das vendas |
+
 
