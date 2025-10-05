@@ -187,6 +187,7 @@ O ticket médio de R$ 2.920,00 indica clientes com maior poder de compra. Recome
 ---
 
 ##🧠 Conclusões e Recomendações
+---
 
 |#| tema | recomendação |
 |:-:|-----------|-----------|
