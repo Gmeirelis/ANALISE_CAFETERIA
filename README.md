@@ -111,6 +111,9 @@ R$ 19,80 por cliente, subindo para R$ 22,00 nos finais de semana.
 
 ---
 
+##📈 KPIs do Projeto
+--
+
 | # | Indicador|	Valor | 	Insight
 |:-:|-----------|-----------|------------|
 | 1 | Receita Total |R$ 48.500| Volume total do período analisado|
