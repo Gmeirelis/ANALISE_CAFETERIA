@@ -143,7 +143,7 @@ Cappuccino e Latte lideram as vendas, representando 38% do faturamento total.
 
 
 
- ![graficos](graficos/bebidas_mais_vendidas.png)
+ ![graficos](graficos/bebidas_ mais_ vendidas.png)
 
 
 
