@@ -156,22 +156,27 @@ Os horários de maior movimento são 8h–10h (café da manhã) e 16h–18h (fim
 ➡️ Reforçar a equipe e preparar o estoque nesses períodos.
 
 
-![graficos](graficos/vendas_por_dia.png)
+![graficos](graficos/vendas_por_horario.png)
 
 ---
 
 ##🌅 Vendas por Período do Dia
 
+
+![graficos](graficos/vendas_por_turno.png)
+
 ---
 
 ##📆 Vendas por Dia da Semana
+
+![graficos](graficos/vendas_por_dia.png)
 
 ---
 
 ##💰 Ticket Médio
 
-R$ 19,80 por cliente, subindo para R$ 22,00 nos finais de semana.
-➡️ Clientes gastam mais em momentos de lazer, reforçando o potencial de vendas sazonais.
+
+![graficos](graficos/tickt_medio.png)
 
 ---
 
